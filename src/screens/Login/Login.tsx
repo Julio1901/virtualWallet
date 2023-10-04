@@ -11,6 +11,7 @@ import {
 	ViewButton
 } from './styles'
 import ButtonSocialGoogle from '../../components/ButtonSocialGoogle/ButtonSocialGoogle'
+import ButtonSocialFacebook from '../../components/ButtonSocialFacebook/ButtonSocialFacebook'
 
 
 const Login: React.FC = () => {
@@ -21,8 +22,8 @@ const Login: React.FC = () => {
 					<Title>Seja bem vindo(a) {"\n"} a Wallat App</Title>
 					<Description>Entrar com redes sociais</Description>
 					<ViewButton>
-						<ButtonSocialGoogle title="Google"/>
-						<ButtonSocialGoogle title="Google"/>
+						<ButtonSocialGoogle title="Google" />
+						<ButtonSocialFacebook title="Facebook" />
 					</ViewButton>
 				</ContentHeader>
 				<ContentBody>
